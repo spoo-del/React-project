@@ -1,0 +1,30 @@
+/* src/style.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+mer-list li {
+  cursor: pointer;
+  padding: 5px 0;
+}
+
+.customer-list li.selected {
+  background-color: #f0f0f0;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.photo-grid img {
+  width: 100%;
+}

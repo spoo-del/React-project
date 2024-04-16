@@ -1,0 +1,25 @@
+/* src/components/CustomerList.css */
+.customer-list {
+    float: left; /* Align customer list to the left */
+    width: 30%; /* Adjust width as needed */
+    padding: 50px;
+  }
+  
+  .customer-list h2 {
+    margin-bottom: 10px;
+  }
+  
+  .customer-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .customer-list li {
+    cursor: pointer;
+    padding: 5px 0;
+  }
+  
+  .customer-list li.selected {
+    background-color: #f0f0f0;
+  }
+  

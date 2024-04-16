@@ -1,0 +1,41 @@
+/* src/App.css */
+.app {
+    display: flex;
+    
+    padding: 0;
+  }
+  
+  /* src/components/CustomerList.css */
+  .customer-list {
+   
+    padding: 20px;
+  }
+  
+  .customer-list h2 {
+    margin-bottom: 10px;
+  }
+  
+  .customer-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .customer-list li {
+    cursor: pointer;
+    padding: 5px 0;
+  }
+  
+  .customer-list li.selected {
+    background-color: #f0f0f0;
+  }
+  
+  /* src/components/CustomerDetails.css */
+  .customer-details {
+    
+    padding: 50px;
+  }
+  
+  .customer-details h2 {
+    margin-bottom: 10px;
+  }
+  
